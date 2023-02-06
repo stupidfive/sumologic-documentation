@@ -173,6 +173,18 @@ Sumo Logic automatically resolves the incident when the resolution condition is 
 | Threshold type | How you want the value compared. Select either greater than, greater than or equal, less than or equal, or less than. |
 | Threshold | The value against which the resolution will be evaluated. You can specify any valid numeric value. |
 
+**Alert and recovery window**
+  
+This setting is used to control the behavior of alert/recovery for sparse/intermittent/incomplete data sources. 
+
+<img width="973" alt="image" src="https://user-images.githubusercontent.com/13195152/216914082-c092ecba-0ef1-46e6-971b-c3a950a3b6d5.png">  
+  
+`Alert and recovery require a minimum of <Count> data points for “at all times” evaluation windows`
+
+| Parameter | Description |
+|:--|:--|
+| Count | The minimum number of data points needed in alert and recovery `Time Range` for alert to trigger and resolve respectively. |  
+  
 #### Outlier detection method
 
 **Metrics Trigger Type: Critical and Warning**
