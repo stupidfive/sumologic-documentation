@@ -1081,7 +1081,7 @@ Takes keys and values in separate fields from a JSON event and combines them tog
 
 **Syntax**
 
-`ZIP\<ke\>\<value\> =\<prefix or %s template\>`
+`ZIP\<key\>\<value\> =\<prefix or %s template\>`
 
 **Non-regex method**
 
